@@ -8,6 +8,10 @@ public class Student {
     private final List<Book> books;
 
     public Student(String name, List<Book> books) {
+        if (books == null) {
+            throw new IllegalArgumentException(String.format("У студента %s список книг не может быть null!", name));
+        }
+
         this.name = name;
         this.books = books;
     }
