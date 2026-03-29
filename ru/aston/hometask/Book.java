@@ -1,4 +1,4 @@
-package Aston.ru.aston.hometask2;
+package Aston.ru.aston.hometask;
 
 import java.util.Objects;
 
